@@ -9,7 +9,7 @@
 ![logical diagram](https://user-images.githubusercontent.com/80603078/219983350-1e5a2df1-4b46-40f4-8a4a-3295440d0b07.PNG)
 
 
-3. Learned about Identity and Access Management (IAM): This included different AWS IAM roles, AWS organizations, AWS CloudTrail, policies, and AWS security best practices.<br>
+3. Learned about Identity and Access Management (IAM): This included different AWS IAM roles, AWS organizations, AWS CloudTrail, policies, and AWS security best      practices.<br>
  . Learned how to Enable MFA for root user, Create an organization unit and the use of AWS Cloud trail (monitor data security and residence)<br>
  . Got to know the difference between a Region and an Availability zone and what is meant by global services .<br>
  . Created IAM users and get to know the different user types : root user,IAM User and Federated User .<br>
