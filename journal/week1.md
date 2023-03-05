@@ -34,6 +34,8 @@
 <br>
   * Building a docker image for the Frontend app <br>
   * Building a docker image for the Backend app  <br>
+  ![docker4](https://user-images.githubusercontent.com/80603078/222953869-d57904be-de5e-4ebc-adc3-f958077403df.PNG)
+
   * The use of Docker compose file to build both of the App containers at the same time . <br>
   *Docker container security best practices :<br>
            -managed(ECS,EKS) vs unmanaged(outside cloud) container services .<br>
