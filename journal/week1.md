@@ -45,6 +45,17 @@
  ![docker6](https://user-images.githubusercontent.com/80603078/222954376-671c15f9-7ae5-4ec5-a0b4-7796f4232975.PNG)
 
   *Docker container security best practices :<br>
-           -managed(ECS,EKS) vs unmanaged(outside cloud) container services .<br>
+           -Managed Container Services VS Unmanaged Container Services .<br>
+                Managed Container Services and Unmanaged Container Services are two different approaches to running and managing containerized applications.<br>
+                Managed container services are fully managed platforms that provide a turnkey solution for running and managing containers.<br>
+                Examples of managed container services include Amazon ECS, Amazon EKS...<br>
+           -Unmanaged Container Services: <br>
+            Unmanaged container services require you to manage the underlying infrastructure yourself .<br>
+            Examples of unmanaged container services include Docker Swarm, Kubernetes on-premises, and OpenShift.<br>
+            
            -Docker architecture(components): docker client , docker server ,Docker registry , Docker container, docker image .<br>
+            ![7310b2e5-4a3d-4ee4-ad85-ee534de55540](https://user-images.githubusercontent.com/80603078/222954921-9018ce27-9372-4a6e-bbab-6ac585755adf.png)
+            <br>
+  
+
 
