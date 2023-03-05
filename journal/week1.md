@@ -14,7 +14,7 @@
   
   ![docker3](https://user-images.githubusercontent.com/80603078/222934595-46f1f4bc-6979-4d11-8ce8-96c854a2a1e1.PNG)
   <br>
-  *The different elements of a dockerfile structure :<br> 
+  <h3>The different elements of a dockerfile structure :</h3> 
      <b> FROM </b> Base Image  : A Dockerfile starts with a base image, which is the foundation of the new Docker image . It contains a pre-built and pre-configured operating system with all its dependencies, libraries, and software packages needed to run that image .<br>
      <b> ENV </b> Environment Variables : The ENV command is used to set environment variables within the Docker image.<br>
      <b> COPY </b> <Source> <Destination> : used to copy files or directories from the host machine (where Docker is running) into the Docker image being built.<br>
