@@ -33,9 +33,13 @@
 
 <br>
   * Building a docker image for the Frontend app <br>
+  
+  ![docker5](https://user-images.githubusercontent.com/80603078/222954288-889b9edb-7083-4bed-989f-f79f33ee6be6.PNG)
+
   * Building a docker image for the Backend app  <br>
   
-  ![docker4](https://user-images.githubusercontent.com/80603078/222953869-d57904be-de5e-4ebc-adc3-f958077403df.PNG)
+ ![docker4](https://user-images.githubusercontent.com/80603078/222954185-2e2db784-1ac6-4578-b2b6-56c42281fe1d.PNG)
+
 
   * The use of Docker compose file to build both of the App containers at the same time . <br>
   *Docker container security best practices :<br>
