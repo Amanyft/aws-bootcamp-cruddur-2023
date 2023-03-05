@@ -1,5 +1,7 @@
 # Week 1 — App Containerization
 *installed the docker extension in VScode .<br>
+![Docker](https://user-images.githubusercontent.com/80603078/222934496-69d32b26-07e2-4e87-9a11-82a25ffd422d.PNG)
+
   *Created a dockerfile for the backend app built on top of python:3.10-slim-buster docker image<br>
   *Created a dockerfile for the frontend app built on top of node:16.18 docker image <br>
   *learnt about the different elements of a dockerfile structure : FROM , ENV ,PORT ,COPY ,WORKDIR ,RUN ,EXPOSE and CMD . <br>
