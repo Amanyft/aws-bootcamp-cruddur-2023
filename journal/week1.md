@@ -9,13 +9,13 @@
 ![Docker](https://user-images.githubusercontent.com/80603078/222934496-69d32b26-07e2-4e87-9a11-82a25ffd422d.PNG)
 
 <br>
-*The creation of the Dockerfile for the backend app built on top of the python:3.10-slim-buster docker image <br>
+<h4>The creation of the Dockerfile for the backend app built on top of the python:3.10-slim-buster docker image </h4>
 
 ![docker2](https://user-images.githubusercontent.com/80603078/222934783-0511c86f-d84d-4a20-a1a8-966a6ebd36d6.PNG)
 
   <br>
 
-  *The creation of the Dockerfile for the frontend app built on top of the node:16.18 docker image <br>
+  <h4>The creation of the Dockerfile for the frontend app built on top of the node:16.18 docker image </h4>
   
   ![docker3](https://user-images.githubusercontent.com/80603078/222934595-46f1f4bc-6979-4d11-8ce8-96c854a2a1e1.PNG)
   <br>
@@ -37,20 +37,20 @@
 
 
 <br>
-  * Building a docker image for the Frontend app <br>
+  <h4> Building a docker image for the Frontend app </h4>
   
   ![docker5](https://user-images.githubusercontent.com/80603078/222954288-889b9edb-7083-4bed-989f-f79f33ee6be6.PNG)
 
-  * Building a docker image for the Backend app  <br>
+  <h4> Building a docker image for the Backend app  </h4>
   
  ![docker4](https://user-images.githubusercontent.com/80603078/222954185-2e2db784-1ac6-4578-b2b6-56c42281fe1d.PNG)
 
 
-  * The use of Docker compose file to build both of the App containers at the same time . <br>
+  <h4> Docker Compose file use to build both of the App containers at the same time . <br>
  ![docker6](https://user-images.githubusercontent.com/80603078/222954376-671c15f9-7ae5-4ec5-a0b4-7796f4232975.PNG)
 
   <h4> Docker Container security Best practices :</h4>
-           -Managed Container Services VS Unmanaged Container Services .<br>
+           <h6> Managed Container Services VS Unmanaged Container Services .</h6>
                 Managed Container Services and Unmanaged Container Services are two different approaches to running and managing containerized applications.<br>
                 Managed container services are fully managed platforms that provide a turnkey solution for running and managing containers.<br>
                 Examples of managed container services include Amazon ECS, Amazon EKS...<br>
