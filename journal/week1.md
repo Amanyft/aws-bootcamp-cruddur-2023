@@ -29,9 +29,11 @@
   - A Host OS is a complete operating system that runs directly on the host machine and provides a wide range of services and capabilities to support a variety of applications. <br>
   
   ![2017-03-31_14_50_13-Radom Learnings, Online Whiteboard for Visual Collaboration](https://user-images.githubusercontent.com/80603078/222935250-bd86451c-960d-4e5f-a1f8-51f891526227.png)
-
-  *built a docker image for the frontend app and backend app seperately then used Docker compose file to build both of the app containers at the same time . <br>
-  *learnt about Docker container security best practices :<br>
+<br>
+  * Building a docker image for the Frontend app <br>
+  * Building a docker image for the Backend app  <br>
+  * The use of Docker compose file to build both of the App containers at the same time . <br>
+  *Docker container security best practices :<br>
            -managed(ECS,EKS) vs unmanaged(outside cloud) container services .<br>
            -Docker architecture(components): docker client , docker server ,Docker registry , Docker container, docker image .<br>
 
