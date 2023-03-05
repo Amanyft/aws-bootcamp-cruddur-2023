@@ -61,6 +61,13 @@
                  Examples of unmanaged container services include Docker Swarm, Kubernetes on-premises, and OpenShift. <br>
 
  <h4> Docker Container security Best practices :</h4>
+ 
      - Keeping Host and docker updated to latest security patches . <br> 
      - Image vulnerability scanning . <br>
      - The use of secret management services to share secrets . <br>
+ 
+ <h4> Docker Container security Best practices :</h4>
+  
+  - Keeping Host and docker updated to latest security patches .<br>
+  - Image vulnerability scanning . <br>
+  - The use of secret management services to share secrets . <br>
