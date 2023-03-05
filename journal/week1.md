@@ -16,6 +16,9 @@
   <br>
   *The different elements of a dockerfile structure :<br> 
      <b> FROM </b> Base Image  : A Dockerfile starts with a base image, which is the foundation of the new Docker image . It contains a pre-built and pre-configured operating system with all its dependencies, libraries, and software packages needed to run that image .<br>
+     <b> ENV </b> Environment Variables : The ENV command is used to set environment variables within the Docker image.<br>
+     <b> COPY </b> <Source> <Destination> : used to copy files or directories from the host machine (where Docker is running) into the Docker image being built.<br>
+     <b> WORKDIR </b> : used to set the working directory for subsequent instructions.<br>
   *learnt about the difference between Container Os and Host OS , copied data from and to both of them .<br>
   *built a docker image for the frontend app and backend app seperately then used Docker compose file to build both of the app containers at the same time . <br>
   *learnt about Docker container security best practices :<br>
