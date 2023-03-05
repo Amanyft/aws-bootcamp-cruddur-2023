@@ -23,7 +23,7 @@
      <b> EXPOSE </b> : used to specify which ports are exposed by the Docker image.<br>
      <b>CMD</b> : used to specify the default command that should be run when a container based on the Docker image is started . <br>
   
-  *The difference between Container OS and Host OS <br>
+  <h3>The difference between Container OS and Host OS </h3>
   - A container OS is typically a lightweight, stripped-down version of a full-fledged operating system that includes only the minimum software and services required to run a container. This includes the container runtime, system libraries, and other dependencies needed to run applications in the container.<br>
   - A Host OS is a complete operating system that runs directly on the host machine and provides a wide range of services and capabilities to support a variety of applications. <br>
   
