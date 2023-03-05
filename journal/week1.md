@@ -19,7 +19,16 @@
      <b> ENV </b> Environment Variables : The ENV command is used to set environment variables within the Docker image.<br>
      <b> COPY </b> <Source> <Destination> : used to copy files or directories from the host machine (where Docker is running) into the Docker image being built.<br>
      <b> WORKDIR </b> : used to set the working directory for subsequent instructions.<br>
-  *learnt about the difference between Container Os and Host OS , copied data from and to both of them .<br>
+     <b> RUN </b> : used to execute a command in a new layer on top of the current image and commit the results. <br>
+     <b> EXPOSE </b> : used to specify which ports are exposed by the Docker image.<br>
+     <b>CMD</b> : used to specify the default command that should be run when a container based on the Docker image is started . <br>
+  
+  *The difference between Container OS and Host OS <br>
+  - A container OS is typically a lightweight, stripped-down version of a full-fledged operating system that includes only the minimum software and services required to run a container. This includes the container runtime, system libraries, and other dependencies needed to run applications in the container.<br>
+  - A Host OS is a complete operating system that runs directly on the host machine and provides a wide range of services and capabilities to support a variety of applications. <br>
+  
+  ![2017-03-31_14_50_13-Radom Learnings, Online Whiteboard for Visual Collaboration](https://user-images.githubusercontent.com/80603078/222935250-bd86451c-960d-4e5f-a1f8-51f891526227.png)
+
   *built a docker image for the frontend app and backend app seperately then used Docker compose file to build both of the app containers at the same time . <br>
   *learnt about Docker container security best practices :<br>
            -managed(ECS,EKS) vs unmanaged(outside cloud) container services .<br>
