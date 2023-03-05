@@ -1,5 +1,10 @@
 # Week 1 — App Containerization
-*Docker extension installation in VScode .<br>
+ <h3> Docker Architecture(components): </h3>
+  
+![architecture](https://user-images.githubusercontent.com/80603078/222955577-3a3e8ddc-bd55-4b07-909e-585d88c18e75.png)
+
+
+<h6> Docker extension installation in VScode </h6>
 
 ![Docker](https://user-images.githubusercontent.com/80603078/222934496-69d32b26-07e2-4e87-9a11-82a25ffd422d.PNG)
 
@@ -53,9 +58,5 @@
             Unmanaged container services require you to manage the underlying infrastructure yourself .<br>
             Examples of unmanaged container services include Docker Swarm, Kubernetes on-premises, and OpenShift.<br>
             
-  <h3> Docker Architecture(components): </h3>
-  
-![architecture](https://user-images.githubusercontent.com/80603078/222955577-3a3e8ddc-bd55-4b07-909e-585d88c18e75.png)
-
 
 
