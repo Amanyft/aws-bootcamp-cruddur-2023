@@ -42,6 +42,8 @@
 
 
   * The use of Docker compose file to build both of the App containers at the same time . <br>
+ ![docker6](https://user-images.githubusercontent.com/80603078/222954376-671c15f9-7ae5-4ec5-a0b4-7796f4232975.PNG)
+
   *Docker container security best practices :<br>
            -managed(ECS,EKS) vs unmanaged(outside cloud) container services .<br>
            -Docker architecture(components): docker client , docker server ,Docker registry , Docker container, docker image .<br>
