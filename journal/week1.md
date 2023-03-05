@@ -47,9 +47,9 @@
 
 
   <h4> Docker Compose file use to build both of the App containers at the same time . </h4>
- <br>
+ 
  ![docker6](https://user-images.githubusercontent.com/80603078/222956258-fca9ae8a-0b5a-4c47-a0b7-7e93fd1d62fa.PNG)
-<br>
+
   <h4> Docker Container security Best practices :</h4>
            <h6> Managed Container Services VS Unmanaged Container Services .</h6>
                 Managed Container Services and Unmanaged Container Services are two different approaches to running and managing containerized applications.<br>
