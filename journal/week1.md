@@ -28,7 +28,8 @@
   - A container OS is typically a lightweight, stripped-down version of a full-fledged operating system that includes only the minimum software and services required to run a container. This includes the container runtime, system libraries, and other dependencies needed to run applications in the container.<br>
   - A Host OS is a complete operating system that runs directly on the host machine and provides a wide range of services and capabilities to support a variety of applications. <br>
   
-  ![2017-03-31_14_50_13-Radom Learnings, Online Whiteboard for Visual Collaboration](https://user-images.githubusercontent.com/80603078/222935250-bd86451c-960d-4e5f-a1f8-51f891526227.png)
+![OS](https://user-images.githubusercontent.com/80603078/222936026-a6c0fe96-efbf-480d-af78-3fad7c51daab.PNG)
+
 <br>
   * Building a docker image for the Frontend app <br>
   * Building a docker image for the Backend app  <br>
