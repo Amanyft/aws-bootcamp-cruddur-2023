@@ -56,7 +56,7 @@
            -Docker architecture(components): docker client , docker server ,Docker registry , Docker container, docker image . 
             <br>
   
-           ![7310b2e5-4a3d-4ee4-ad85-ee534de55540](https://user-images.githubusercontent.com/80603078/222955207-be9379ea-329f-4644-bdd6-450a35cf3207.png)
+![architecture](https://user-images.githubusercontent.com/80603078/222955577-3a3e8ddc-bd55-4b07-909e-585d88c18e75.png)
 
 
 
