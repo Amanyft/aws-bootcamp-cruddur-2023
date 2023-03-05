@@ -4,8 +4,10 @@
 ![Docker](https://user-images.githubusercontent.com/80603078/222934496-69d32b26-07e2-4e87-9a11-82a25ffd422d.PNG)
 
 <br>
-  *The creation of the Dockerfile for the backend app built on top of the python:3.10-slim-buster docker image <br>
-  ![docker2](https://user-images.githubusercontent.com/80603078/222934562-314d9d98-6136-459b-a45f-a5d65e0f47f7.PNG)
+*The creation of the Dockerfile for the backend app built on top of the python:3.10-slim-buster docker image <br>
+
+![docker2](https://user-images.githubusercontent.com/80603078/222934783-0511c86f-d84d-4a20-a1a8-966a6ebd36d6.PNG)
+
   <br>
 
   *The creation of the Dockerfile for the frontend app built on top of the node:16.18 docker image <br>
