@@ -3,8 +3,13 @@
 
 ![Docker](https://user-images.githubusercontent.com/80603078/222934496-69d32b26-07e2-4e87-9a11-82a25ffd422d.PNG)
 
-  *Created a dockerfile for the backend app built on top of python:3.10-slim-buster docker image<br>
-  *Created a dockerfile for the frontend app built on top of node:16.18 docker image <br>
+  *The creation of the Dockerfile for the backend app built on top of the python:3.10-slim-buster docker image<br>
+  ![docker2](https://user-images.githubusercontent.com/80603078/222934562-314d9d98-6136-459b-a45f-a5d65e0f47f7.PNG)
+
+  *The creation of the Dockerfile for the frontend app built on top of the node:16.18 docker image <br>
+  
+  ![docker3](https://user-images.githubusercontent.com/80603078/222934595-46f1f4bc-6979-4d11-8ce8-96c854a2a1e1.PNG)
+
   *learnt about the different elements of a dockerfile structure : FROM , ENV ,PORT ,COPY ,WORKDIR ,RUN ,EXPOSE and CMD . <br>
   *learnt about the difference between Container Os and Host OS , copied data from and to both of them .<br>
   *built a docker image for the frontend app and backend app seperately then used Docker compose file to build both of the app containers at the same time . <br>
