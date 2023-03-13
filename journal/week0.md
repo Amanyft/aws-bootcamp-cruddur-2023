@@ -19,4 +19,5 @@
 
 4. Learned about Billing and Budgeting: This included setting up a billing alert, creating a budget, calculating AWS estimated costs for a service, and how to use cost allocation tags to track resource usage.<br>
 creating a budget<br>
-![1](https://user-images.githubusercontent.com/80603078/224849091-f6c06b7e-eda2-4cfc-8a3d-a331c0d312f0.PNG)
+
+![1](https://user-images.githubusercontent.com/80603078/224849393-1e6db607-3139-4660-ab11-fd06a0bd1361.PNG)
