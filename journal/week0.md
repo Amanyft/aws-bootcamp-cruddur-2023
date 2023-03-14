@@ -27,6 +27,6 @@ creating a budget<br>
 ![1](https://user-images.githubusercontent.com/80603078/224849393-1e6db607-3139-4660-ab11-fd06a0bd1361.PNG)
 ![2](https://user-images.githubusercontent.com/80603078/224851149-34ef3b80-dbc9-4d58-9efe-f5ac98596300.PNG)
 5.Use CloudShell
-![6](https://user-images.githubusercontent.com/80603078/225162609-a0b9db2f-6ef0-4097-811d-9bce95ccd5a3.PNG)
+![6](https://user-images.githubusercontent.com/80603078/225162826-ffb6fe56-cb53-484e-9d9e-4e788e22cb5a.PNG)
 
 6.Installed AWS CLI
