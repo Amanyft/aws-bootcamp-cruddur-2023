@@ -26,3 +26,4 @@ creating a budget<br>
 
 ![1](https://user-images.githubusercontent.com/80603078/224849393-1e6db607-3139-4660-ab11-fd06a0bd1361.PNG)
 ![2](https://user-images.githubusercontent.com/80603078/224851149-34ef3b80-dbc9-4d58-9efe-f5ac98596300.PNG)
+5.Installed AWS CLI
