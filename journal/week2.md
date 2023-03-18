@@ -1,1 +1,38 @@
 # Week 2 — Distributed Tracing
+<h2>Honeycomb</h2>
+Honeycomb is a software platform designed for observability and debugging of modern software systems. It provides developers and operations teams with the tools to understand how their applications are behaving in real-time, allowing them to quickly identify and fix issues.
+Honeycomb collects data from various sources, including logs, traces, and metrics, and organizes it in a way that makes it easy to search, analyze, and visualize.<br>
+
+<h4> Creating Honeycomb Environment for the Bootcamp </h4>
+
+![1](https://user-images.githubusercontent.com/80603078/226144565-1e39768c-076c-4965-afc0-745cbf62362c.PNG)
+
+<h4> Set environmental variable with the API key of our Honeycomb account: </h4>
+
+```
+export HONEYCOMB_API_KEY="aioc00VYJfh1DG6d9BtdcD"<br>
+gp env HONEYCOMB_API_KEY="aioc00VYJfh1DG6d9BtdcD"
+```
+
+
+![2](https://user-images.githubusercontent.com/80603078/226145044-b4869bf2-f4a2-41f3-8e38-e79be8641587.PNG)
+
+<h4> Hard code Service Name in Docker compose </h4>
+
+![3](https://user-images.githubusercontent.com/80603078/226145663-d0b2600a-d4aa-4665-acfc-864b14fa41d1.PNG)
+
+<h4> Install packages </h4>
+
+
+```
+opentelemetry-api 
+opentelemetry-sdk 
+opentelemetry-exporter-otlp-proto-http 
+opentelemetry-instrumentation-flask 
+opentelemetry-instrumentation-requests
+
+```
+
+
+
+![4](https://user-images.githubusercontent.com/80603078/226145818-f40955de-d2fd-4650-b229-6aa0d43a2597.PNG)
