@@ -87,5 +87,6 @@ it shows data :
 ![8](https://user-images.githubusercontent.com/80603078/226198494-b1ee6add-2fbb-4e57-aebd-5f2596170e69.PNG)
 
 
-<h2> Instrument AWS X-Ray </h2>
+<h2> Instrument AWS X-Ray : </h2>
 
+![9](https://user-images.githubusercontent.com/80603078/226208143-d34d7785-c336-4d15-8b2b-c5a88888e8bf.PNG)
