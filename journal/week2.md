@@ -89,4 +89,16 @@ it shows data :
 
 <h2> Instrument AWS X-Ray : </h2>
 
+Add to the requirements.txt
+
+```
+aws-xray-sdk
+
+```
+Install python dependencies
+
+```
+pip install -r requirements.txt
+
+```
 ![9](https://user-images.githubusercontent.com/80603078/226208143-d34d7785-c336-4d15-8b2b-c5a88888e8bf.PNG)
