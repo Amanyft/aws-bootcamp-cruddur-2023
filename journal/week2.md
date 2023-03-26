@@ -101,3 +101,26 @@ pip install -r requirements.txt
 ```
 
 ![9](https://user-images.githubusercontent.com/80603078/226208143-d34d7785-c336-4d15-8b2b-c5a88888e8bf.PNG)
+
+### Add to app.py
+
+```py
+from aws_xray_sdk.core import xray_recorder
+from aws_xray_sdk.ext.flask.middleware import XRayMiddleware
+xray_url = os.getenv("AWS_XRAY_URL")
+xray_recorder.configure(service='Cruddur', dynamic_naming=xray_url)
+XRayMiddleware(app, xray_recorder)
+```
+
+![10](https://user-images.githubusercontent.com/80603078/227805151-b15ef107-04be-4de1-bb40-e768b8803fd0.PNG)
+
+
+### Create group
+![11](https://user-images.githubusercontent.com/80603078/227805162-79a04905-b83f-47ac-9797-c782bad243f1.PNG)
+
+###### And it is shown here ! 
+
+![12](https://user-images.githubusercontent.com/80603078/227805170-926b9f95-77a0-40e3-b327-de5ecba64101.PNG)
+
+![13](https://user-images.githubusercontent.com/80603078/227805174-1de204ca-e1cb-4488-9c1b-4a1e85aa21af.PNG)![14](https://user-images.githubusercontent.com/80603078/227805179-7dc8aec1-91f1-4606-b2da-02d5291768e2.PNG)
+
