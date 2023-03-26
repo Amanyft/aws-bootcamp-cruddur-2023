@@ -118,9 +118,16 @@ XRayMiddleware(app, xray_recorder)
 ### Create group
 ![11](https://user-images.githubusercontent.com/80603078/227805162-79a04905-b83f-47ac-9797-c782bad243f1.PNG)
 
-###### And it is shown here ! 
+#### And it is shown here ! 
 
 ![12](https://user-images.githubusercontent.com/80603078/227805170-926b9f95-77a0-40e3-b327-de5ecba64101.PNG)
+### Set up the X-ray deamon
+![13](https://user-images.githubusercontent.com/80603078/227805174-1de204ca-e1cb-4488-9c1b-4a1e85aa21af.PNG)
 
-![13](https://user-images.githubusercontent.com/80603078/227805174-1de204ca-e1cb-4488-9c1b-4a1e85aa21af.PNG)![14](https://user-images.githubusercontent.com/80603078/227805179-7dc8aec1-91f1-4606-b2da-02d5291768e2.PNG)
+#### Successfully Sent Segments !
+![14](https://user-images.githubusercontent.com/80603078/227805179-7dc8aec1-91f1-4606-b2da-02d5291768e2.PNG)
+
+
+#### We've got data shown here !
+![15](https://user-images.githubusercontent.com/80603078/227807865-94fa3316-94a5-4bf1-8949-daa2f0b320b7.PNG)
 
