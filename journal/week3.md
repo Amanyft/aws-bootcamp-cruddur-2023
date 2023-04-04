@@ -77,3 +77,20 @@ const checkAuth = async () => {
 };
 
 ```
+![5](https://user-images.githubusercontent.com/80603078/229930064-97f8dc29-d01e-4bab-a675-356282e04dd3.PNG)
+
+We'll update `ProfileInfo.js`
+
+```js
+import { Auth } from 'aws-amplify';
+const signOut = async () => {
+  try {
+      await Auth.signOut({ global: true });
+      window.location.href = "/"
+  } catch (error) {
+      console.log('error signing out: ', error);
+  }
+}
+```
+
+![6](https://user-images.githubusercontent.com/80603078/229934727-d48b6c1a-0671-4d54-9134-6d6dcab59c64.PNG)
