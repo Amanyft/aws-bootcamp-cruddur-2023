@@ -33,6 +33,9 @@ Amplify.configure({
     userPoolWebClientId: process.env.REACT_APP_AWS_USER_POOLS_WEB_CLIENT_ID,   // OPTIONAL - Amazon Cognito Web Client ID (26-char alphanumeric string)
   }
 });
+
+
+
 ```
 And here it is !
 <br>
@@ -41,7 +44,7 @@ And here it is !
 
 ### Conditionally show components based on logged in or logged out
 
-#### Inside our HomeFeedPage.js
+#### Inside our HomeFeedPage.js we add the following code
 
 ```js
 import { Auth } from 'aws-amplify';
@@ -50,4 +53,27 @@ import { Auth } from 'aws-amplify';
 ```
 // set a state
 const [user, setUser] = React.useState(null);
+```
+
+```
+// check if we are authenicated
+const checkAuth = async () => {
+  Auth.currentAuthenticatedUser({
+    // Optional, By default is false. 
+    // If set to true, this call will send a 
+    // request to Cognito to get the latest user data
+    bypassCache: false 
+  })
+  .then((user) => {
+    console.log('user',user);
+    return Auth.currentAuthenticatedUser()
+  }).then((cognito_user) => {
+      setUser({
+        display_name: cognito_user.attributes.name,
+        handle: cognito_user.attributes.preferred_username
+      })
+  })
+  .catch((err) => console.log(err));
+};
+
 ```
